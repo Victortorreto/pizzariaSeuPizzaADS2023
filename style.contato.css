@@ -10,12 +10,12 @@ header{
 }
 nav{
     position: absolute;
-    right: 0;
+    right: 10;
     top: 70px;
 }
 nav li{
     display: inline;
-    margin: 0 0 0 60px;
+    margin: 0 0 0 70px;
 }
 nav a{
     color: rgb(235, 29, 29);
@@ -29,60 +29,55 @@ nav a:hover{
     color: rgb(200, 209, 199);
     text-decoration: underline;
 }
-.logo_cardapio{
+.logo_caixa{
     position: relative;
     width: 940px;
     margin: auto;
 }
 .logo{
     width: 50%;
-    position: center;
 }
-/*Sobre a pizzaria Seu Pizza */
-.chocolate{
-    width: 20%;
-    padding: 0 0 0 250px;
-    float: left;   
-}
-.Mussarela{
-    width: 20%;
-    padding: 0 0 0 50px;
-    float: left;
-}
-.morango{
-    width: 20%;
-    padding: 0 0 0 50px;
-    float: left;
-}
-.titulo-pizza{
+.contato_texto{
     text-align: center;
-    clear: left;
-    font-size: 50px;
-    margin: 0;
-    padding: 50px 0 30px 0;
 }
-.sobre-pizzaria{
-    background-color: #f1ca08;
-    width: 100%; 
+form{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-bottom: 20px;
 }
-.posChoco{
-    padding: 0 0 0 280px;
-    float: left;
+form label, form legend{
+    display: block;
     font-size: 20px;
+    margin: 0 0 10px;
 }
-.posMuss{
-    padding: 0 0 0 140px;
-    float: left;
-    font-size: 20px;
+fieldset{
+    width: 75%;
+    padding-left: 5%;
+    margin-bottom: 2%;
 }
-.posMora{
-    padding: 0 0 0 150px;
-    float: left;
-    font-size: 20px;
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 85%;
 }
-.valor1{
-    width: 20px;
-    
+.chk{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:houver{
+    background: darkorange;
+    transform: scale(1,2);
 }
 footer{
     text-align: center;
@@ -98,6 +93,3 @@ footer{
 .logo_footer{
     width: 20%;
 }
-
-
- 
